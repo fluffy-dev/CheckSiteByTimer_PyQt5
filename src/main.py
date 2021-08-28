@@ -51,6 +51,7 @@ class Checker(QtWidgets.QMainWindow, design.Ui_MainWindow):
         self.output.addItem('End')
 
 if __name__ == '__main__':
+    QtWidgets.QApplication.setStyle("fusion")
     app = QtWidgets.QApplication(sys.argv)
     App = Checker()
     App.show()
